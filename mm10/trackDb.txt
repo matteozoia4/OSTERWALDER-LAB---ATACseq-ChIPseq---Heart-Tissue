@@ -1,0 +1,55 @@
+track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f4c8617c63add6f1/display?to_ext=bigbed
+itemRgb on
+shortLabel Hand2_ChIPseq_rep1
+longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954   
+type bigBed 3 .
+configurable on
+visibility dense
+color 250,102,102        
+
+track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891956_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cac188557219e757/display?to_ext=bigbed
+itemRgb on
+shortLabel Hand2_ChIPseq_rep2
+longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891956       
+type bigBed 3 . 
+configurable on
+visibility dense
+color 204,102,102
+  
+track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
+    container multiWig
+    shortLabel Hand2_ChIPseq_rep1_rep2
+    longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954_GSM1891956
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+        track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_PROFILE
+        parent Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359ebe74b08b8b07cd/display?to_ext=bigwig
+        shortLabel Hand2_ChIPseq_rep1
+        longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954  
+        type bigWig
+        color 250,102,102
+
+        track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891956_PROFILE
+        parent Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213595073a57adc61a67/display?to_ext=bigwig
+        shortLabel Hand2_ChIPseq_rep2
+        longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891956  
+        type bigWig
+        color 204,102,102
+        

@@ -1,0 +1,5 @@
+hub OSTERWALDER LAB - Hand2 ChIPseq Heart E10.5 Laurent 2017 GSM1891954 GSM1891956 
+shortLabel ChIPseq Laurent 2017
+longLabel Hand2 ChIPseq Heart E10.5 Laurent 2017 GSM1891954 GSM1891956 
+genomesFile genomes.txt 
+email  matteo.zoia@dbmr.unibe.ch
