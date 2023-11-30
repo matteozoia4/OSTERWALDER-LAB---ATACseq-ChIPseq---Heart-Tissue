@@ -26,8 +26,8 @@ track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PRO
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0.816622:10
-    viewLimitsMax 0.816622:124.127
+    viewLimits 0:10
+    viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
     showSubtrackColorOnUi on
