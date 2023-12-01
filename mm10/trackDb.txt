@@ -16,7 +16,7 @@ longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891956
 type bigBed 3 . 
 configurable on
 visibility dense
-color 0,153,51
+color 102,204,102
   
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
     container multiWig
@@ -51,5 +51,5 @@ track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PRO
         shortLabel Hand2_ChIPseq_rep2
         longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891956  
         type bigWig
-        color 0,153,51
+        color 102,204,102
         
