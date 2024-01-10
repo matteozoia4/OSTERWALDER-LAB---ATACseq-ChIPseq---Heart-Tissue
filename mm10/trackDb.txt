@@ -2,7 +2,7 @@ track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511ab54fbc16fa980/display?to_ext=bigbed
 itemRgb on
 shortLabel Hand2 ChIPseq Heart rep1,2 PEAKS
-longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954_GSM1891956
+longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956
 type bigBed 3 .
 configurable on
 visibility dense
@@ -11,7 +11,7 @@ color 102,204,102
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
     container multiWig
     shortLabel Hand2 ChIPseq Heart rep1,2 PROFILES
-    longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954_GSM1891956
+    longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956
     type bigWig 0 30000
     configurable on
     visibility full
