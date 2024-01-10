@@ -1,7 +1,7 @@
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f4c8617c63add6f1/display?to_ext=bigbed
 itemRgb on
-shortLabel Hand2_ChIPseq_rep1_PEAKS
+shortLabel Hand2 ChIPseq Heart rep1 PEAKS
 longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954   
 type bigBed 3 .
 configurable on
@@ -11,7 +11,7 @@ color 102,204,102
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891956_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cac188557219e757/display?to_ext=bigbed
 itemRgb on
-shortLabel Hand2_ChIPseq_rep2_PEAKS
+shortLabel Hand2 ChIPseq Heart rep2 PEAKS
 longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891956       
 type bigBed 3 . 
 configurable on
@@ -20,7 +20,7 @@ color 102,204,102
   
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Hand2_ChIPseq_rep1_rep2_PROFILES
+    shortLabel Hand2 ChIPseq Heart rep1,2 PROFILES
     longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954_GSM1891956
     type bigWig 0 30000
     configurable on
@@ -56,7 +56,7 @@ track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PRO
 track Tbx5_ChIPseq_Heart_Akerberg_2019_E12.5_GSM3518657_GSM3518659_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135dda7d62fb36c23e1/display?to_ext=bigbed
 itemRgb on
-shortLabel Tbx5_ChIPseq_rep1_2_PEAKS
+shortLabel Tbx5 ChIPseq Heart rep1,2 PEAKS
 longLabel Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659  
 type bigBed 3 .
 configurable on
@@ -101,7 +101,7 @@ track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PRO
 track Gata4_ChIPseq_Heart_Pu_2014_E12.5_GSM1260026_GSM1260027_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f08af952e038bc7f/display?to_ext=bigbed
 itemRgb on
-shortLabel Gata4_ChIPseq_rep1_2_PEAKS
+shortLabel Gata4 ChIPseq rep1,2 PEAKS
 longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027  
 type bigBed 3 .
 configurable on
@@ -110,7 +110,7 @@ color 102,204,102
   
 track Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Gata4_ChIPseq_rep1_rep2_PROFILES
+    shortLabel Gata4 ChIPseq Heart rep1,2 PROFILES
     longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027
     type bigWig 0 30000
     configurable on
@@ -146,7 +146,7 @@ track Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027_OVERLAYED_PROFILES
 track Tead1_ChIPseq_Heart_Akerberg_2019_E12.5_GSM3518661_GSM3518663_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135330ddd2b61ac0682/display?to_ext=bigbed
 itemRgb on
-shortLabel Tead1_ChIPseq_rep1_2_PEAKS
+shortLabel Tead1 ChIPseq Heart rep1,2 PEAKS
 longLabel Tead1_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518661_GSM3518663  
 type bigBed 3 .
 configurable on
@@ -155,7 +155,7 @@ color 102,204,102
   
 track Tead1_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518661_GSM3518663_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Tead1_ChIPseq_rep1_rep2_PROFILES
+    shortLabel Tead1 ChIPseq Heart rep1,2 PROFILES
     longLabel Tead1_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518661_GSM3518663
     type bigWig 0 30000
     configurable on
@@ -191,7 +191,7 @@ track Tead1_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518661_GSM3518663_OVERLAYED_PR
 track Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213536138b10172b2747/display?to_ext=bigbed
 itemRgb on
-shortLabel Isl1_ChIPseq_rep1_PEAKS
+shortLabel Isl1 ChIPseq Heart-SAN rep1 PEAKS
 longLabel Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148  
 type bigBed 3 .
 configurable on
@@ -200,7 +200,7 @@ color 102,204,102
   
 track Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148_PROFILE
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d8fed205d9c7814b/display?to_ext=bigwig
-    shortLabel Isl1_ChIPseq_rep1_PROFILES
+    shortLabel Isl1 ChIPseq Heart-SAN rep1 PROFILES
     longLabel Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148
     type bigWig 0 30000
     configurable on
