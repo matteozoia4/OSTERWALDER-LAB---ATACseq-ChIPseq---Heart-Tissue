@@ -82,7 +82,7 @@ track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PRO
     yLineMark 1
     gridDefault off
     
-        track Tbx5_ChIPseq_Heart_E10.5_Akerberg_2019_GSM3518657_GSM3518659_PROFILE
+        track Tbx5_ChIPseq_Heart_E10.5_Akerberg_2019_GSM3518657_PROFILE
         parent Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PROFILES
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135faaf26103f861f56/display?to_ext=bigwig
         shortLabel Tbx5_ChIPseq_rep1
@@ -91,7 +91,7 @@ track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PRO
         color 102,204,102
 
         track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518659_PROFILE
-        parent Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM1891954_GSM3518659_OVERLAYED_PROFILES
+        parent Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PROFILES
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135488d4915dd4fe425/display?to_ext=bigwig
         shortLabel Tbx5_ChIPseq_rep2
         longLabel Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518659  
