@@ -200,7 +200,7 @@ color 102,204,102
   
 track Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148_PROFILE
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d8fed205d9c7814b/display?to_ext=bigwig
-    shortLabel Tead1_ChIPseq_rep1
+    shortLabel Isl1_ChIPseq_rep1
     longLabel Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148
     type bigWig 0 30000
     configurable on
