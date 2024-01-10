@@ -1,3 +1,48 @@
+track ATAC_Heart_E11.5_Abassah_2024_GSE232887_INTERESECTED_PEAKS
+bigDataUrl 
+itemRgb on
+shortLabel ATAC Heart E11.5 Rep1,2 PEAKS
+longLabel ATAC_Heart_E11.5_Abassah_2024_GSE232887_PEAKS
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,175,175 
+
+track ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
+    container multiWig
+    shortLabel ATAC Heart E11.5 Rep1,2 PROFILES
+    longLabel ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+
+        track ATAC_Heart_E11.5_Abassah_2024_Rep1
+        parent ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
+        bigDataUrl 
+        shortLabel ATAC Heart E11.5 Rep1
+        longLabel ATAC_Heart_E11.5_Abassah_2024_Rep1
+        type bigWig
+        color 255,153,153
+          
+        track ATAC_Heart_E11.5_Abassah_2024_Rep2
+        parent ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
+        bigDataUrl 
+        shortLabel ATAC Heart E11.5 Rep2
+        longLabel ATAC_Heart_E11.5_Abassah_2024_Rep2
+        type bigWig
+        color 255,204,204
+
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511ab54fbc16fa980/display?to_ext=bigbed
 itemRgb on
