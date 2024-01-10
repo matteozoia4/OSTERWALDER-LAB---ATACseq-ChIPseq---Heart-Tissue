@@ -1,22 +1,12 @@
-track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_PEAKS
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f4c8617c63add6f1/display?to_ext=bigbed
+track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511ab54fbc16fa980/display?to_ext=bigbed
 itemRgb on
-shortLabel Hand2 ChIPseq Heart rep1 PEAKS
-longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954   
+shortLabel Hand2 ChIPseq Heart rep1,2 PEAKS
+longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891954_GSM1891956
 type bigBed 3 .
 configurable on
 visibility dense
 color 102,204,102        
-
-track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891956_PEAKS
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cac188557219e757/display?to_ext=bigbed
-itemRgb on
-shortLabel Hand2 ChIPseq Heart rep2 PEAKS
-longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_GSM1891956       
-type bigBed 3 . 
-configurable on
-visibility dense
-color 102,204,102
   
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
     container multiWig
