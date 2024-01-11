@@ -193,10 +193,10 @@ configurable on
 visibility dense
 color 255,175,175 
 
-track ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
+track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     container multiWig
-    shortLabel ATAC Heart E11.5 Rep1,2 PROFILES OVERLAY
-    longLabel ATAC_Heart_E11.5_Abassah_2024_GSE232887
+    shortLabel ATACseq Heart E11.5 Rep1,2 PROFILES OVERLAY
+    longLabel ATACseq_Heart_E11.5_Abassah_2024_GSE232887
     type bigWig 0 30000
     configurable on
     visibility full
@@ -212,19 +212,19 @@ track ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     yLineMark 1
     gridDefault off
 
-        track ATAC_Heart_E11.5_Abassah_2024_Rep1
-        parent ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
+        track ATACseq_Heart_E11.5_Abassah_2024_Rep1
+        parent ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d180cfa2f3ecfc3d/display?to_ext=bigwig
-        shortLabel ATAC Heart E11.5 Rep1
-        longLabel ATAC_Heart_E11.5_Abassah_2024_Rep1
+        shortLabel ATACseq Heart E11.5 Rep1
+        longLabel ATACseq_Heart_E11.5_Abassah_2024_Rep1
         type bigWig
         color 255,153,153
           
-        track ATAC_Heart_E11.5_Abassah_2024_Rep2
-        parent ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
+        track ATACseq_Heart_E11.5_Abassah_2024_Rep2
+        parent ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c83ead7f291d2409/display?to_ext=bigwig
-        shortLabel ATAC Heart E11.5 Rep2
-        longLabel ATAC_Heart_E11.5_Abassah_2024_Rep2
+        shortLabel ATACseq Heart E11.5 Rep2
+        longLabel ATACseq_Heart_E11.5_Abassah_2024_Rep2
         type bigWig
         color 255,204,204
 
