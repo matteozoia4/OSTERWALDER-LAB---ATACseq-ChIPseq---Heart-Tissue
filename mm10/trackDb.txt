@@ -215,7 +215,7 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         track ATACseq_Heart_E11.5_Abassah_2024_Rep1
         parent ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d180cfa2f3ecfc3d/display?to_ext=bigwig
-        shortLabel ATACseq Heart E11.5 Rep1
+        shortLabel ATACseq Heart E11.5 rep1
         longLabel ATACseq_Heart_E11.5_Abassah_2024_Rep1
         type bigWig
         color 255,153,153
@@ -223,7 +223,7 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         track ATACseq_Heart_E11.5_Abassah_2024_Rep2
         parent ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c83ead7f291d2409/display?to_ext=bigwig
-        shortLabel ATACseq Heart E11.5 Rep2
+        shortLabel ATACseq Heart E11.5 rep2
         longLabel ATACseq_Heart_E11.5_Abassah_2024_Rep2
         type bigWig
         color 255,204,204
