@@ -1,3 +1,48 @@
+track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_INTERSECTED_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358d00e69aa3bd7194/display?to_ext=bigbed
+itemRgb on
+shortLabel CTCF ChIPseq mESC Rep1,2 PEAKS
+longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+type bigBed 3 .
+configurable on
+visibility dense
+color 199,113,28 
+
+track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
+    container multiWig
+    shortLabel CTCF ChIPseq mESC Rep1,2 PROFILES OVERLAY
+    longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:20
+    viewLimitsMax 0:20
+    maxHeightPixels 100:30:18
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+
+        track CTCF_ChIPseq_mESC_Rep1_PROFILE 
+        parent CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721357d7ac027a35ada18/display?to_ext=bigwig
+        shortLabel CTCF ChIPseq mESC Rep1 PROFILE
+        longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+        type bigWig
+        color 199,113,28
+          
+        track ATAC_Heart_E11.5_Abassah_2024_Rep2
+        parent CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135cba0f970ca940c64/display?to_ext=bigwig
+        shortLabel CTCF ChIPseq mESC Rep2 PROFILE
+        longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
+        type bigWig
+        color 199,113,28
+
 track ChIPseq_H3K27ac_Heart_E10_ENCODE4_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358d77b604e927138a/display?to_ext=bigbed
 itemRgb on
@@ -150,7 +195,7 @@ color 255,175,175
 
 track ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     container multiWig
-    shortLabel ATAC Heart E11.5 Rep1,2 PROFILES
+    shortLabel ATAC Heart E11.5 Rep1,2 PROFILES OVERLAY
     longLabel ATAC_Heart_E11.5_Abassah_2024_GSE232887_PROFILES
     type bigWig 0 30000
     configurable on
@@ -195,7 +240,7 @@ color 102,204,102
   
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Hand2 ChIPseq Heart rep1,2 PROFILES
+    shortLabel Hand2 ChIPseq Heart rep1,2 PROFILES OVERLAY
     longLabel Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956
     type bigWig 0 30000
     configurable on
@@ -240,7 +285,7 @@ color 102,204,102
   
 track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Tbx5_ChIPseq_rep1_rep2_PROFILES
+    shortLabel Tbx5 ChIPseq rep1 rep2 PROFILES OVERLAY
     longLabel Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659
     type bigWig 0 30000
     configurable on
@@ -285,7 +330,7 @@ color 102,204,102
   
 track Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Gata4 ChIPseq Heart rep1,2 PROFILES
+    shortLabel Gata4 ChIPseq Heart rep1,2 PROFILES OVERLAY
     longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027
     type bigWig 0 30000
     configurable on
@@ -330,7 +375,7 @@ color 102,204,102
   
 track Tead1_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518661_GSM3518663_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Tead1 ChIPseq Heart rep1,2 PROFILES
+    shortLabel Tead1 ChIPseq Heart rep1,2 PROFILES OVERLAY
     longLabel Tead1_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518661_GSM3518663
     type bigWig 0 30000
     configurable on
@@ -375,7 +420,7 @@ color 102,204,102
   
 track Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148_PROFILE
     bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135d8fed205d9c7814b/display?to_ext=bigwig
-    shortLabel Isl1 ChIPseq Heart-SAN rep1 PROFILES
+    shortLabel Isl1 ChIPseq Heart-SAN rep1 PROFILE
     longLabel Isl1_ChIPseq_Heart_SAN_P1_P2_P3_Liang_2015_GSM1689148
     type bigWig 0 30000
     configurable on
