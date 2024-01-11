@@ -186,7 +186,7 @@ color 230,221,0
 track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_INTERSECTED_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213572f78e12495803c0/display?to_ext=bigbed
 itemRgb on
-shortLabel ATACseq Heart E11.5 Rep1,2 PEAKS
+shortLabel ATACseq Heart E11.5 rep1,2 PEAKS
 longLabel ATACseq_Heart_E11.5_Abassah_2024_GSE232887
 type bigBed 3 .
 configurable on
@@ -195,7 +195,7 @@ color 255,175,175
 
 track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     container multiWig
-    shortLabel ATACseq Heart E11.5 Rep1,2 PROFILES OVERLAY
+    shortLabel ATACseq Heart E11.5 rep1,2 PROFILES OVERLAY
     longLabel ATACseq_Heart_E11.5_Abassah_2024_GSE232887
     type bigWig 0 30000
     configurable on
