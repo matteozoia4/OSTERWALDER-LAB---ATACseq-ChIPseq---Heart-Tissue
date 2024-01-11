@@ -1,3 +1,143 @@
+track ChIPseq_H3K27ac_Heart_E10_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721358d77b604e927138a/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27ac_ChIPseq_Heart_E10_PEAKS
+longLabel H3K27ac_ChIPseq_Heart_E10_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 0,0,255
+
+track ChIPseq_H3K27ac_Heart_E11_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213521082ffec0128384/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27ac_ChIPseq_Heart_E11_PEAKS
+longLabel H3K27ac_ChIPseq_Heart_E11_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 0,0,255
+
+track ChIPseq_H3K27ac_Heart_E12_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359f37e26b9e7f6bad/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27ac_ChIPseq_Heart_E12_PEAKS
+longLabel H3K27ac_ChIPseq_Heart_E12_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 0,0,255
+
+track ChIPseq_H3K27ac_Heart_E13_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135061329f8cc4d34c0/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27ac_ChIPseq_Heart_E13_PEAKS
+longLabel H3K27ac_ChIPseq_Heart_E13_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 0,0,255
+
+track ChIPseq_H3K27ac_Heart_E14_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354f4d13422f45a6c5/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27ac_ChIPseq_Heart_E14_PEAKS
+longLabel H3K27ac_ChIPseq_Heart_E14_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 0,0,255
+
+track ChIPseq_H3K27ac_Heart_E15_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511632eb369c938ab/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27ac_ChIPseq_Heart_E15_PEAKS
+longLabel H3K27ac_ChIPseq_Heart_E15_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 0,0,255
+
+track ChIPseq_H3K27ac_Heart_E16_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355cfa56fa36a15ef1/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27ac_ChIPseq_Heart_E16_PEAKS
+longLabel H3K27ac_ChIPseq_Heart_E16_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 0,0,255
+
+track ChIPseq_H3K27me3_Heart_E10_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135728aee5827faf15f/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27me3_ChIPseq_Heart_E10_PEAKS
+longLabel H3K27me3_ChIPseq_Heart_E10_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,244,0
+
+track ChIPseq_H3K27me3_Heart_E11_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721355ba08e4fc321f780/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27me3_ChIPseq_Heart_E11_PEAKS
+longLabel H3K27me3_ChIPseq_Heart_E11_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,244,0
+
+track ChIPseq_H3K27me3_Heart_E12_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135101364c441c3dcc5/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27me3_ChIPseq_Heart_E12_PEAKS
+longLabel H3K27me3_ChIPseq_Heart_E12_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,244,0
+
+track ChIPseq_H3K27me3_Heart_E13_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135b003ebe47feb2c47/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27me3_ChIPseq_Heart_E13_PEAKS
+longLabel H3K27me3_ChIPseq_Heart_E13_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,244,0
+
+track ChIPseq_H3K27me3_Heart_E14_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359f5909ed06443584/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27me3_ChIPseq_Heart_E14_PEAKS
+longLabel H3K27me3_ChIPseq_Heart_E14_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,244,0
+
+track ChIPseq_H3K27me3_Heart_E15_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721354e093827dfc4f472/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27me3_ChIPseq_Heart_E15_PEAKS
+longLabel H3K27me3_ChIPseq_Heart_E15_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,244,0
+
+track ChIPseq_H3K27me3_Heart_E16_ENCODE4_PEAKS
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721356e830c9bd8e04c46/display?to_ext=bigbed
+itemRgb on
+shortLabel H3K27me3_ChIPseq_Heart_E16_PEAKS
+longLabel H3K27me3_ChIPseq_Heart_E16_ENCODE4
+type bigBed 3 .
+configurable on
+visibility dense
+color 255,244,0
+
 track ATAC_Heart_E11.5_Abassah_2024_GSE232887_INTERSECTED_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213572f78e12495803c0/display?to_ext=bigbed
 itemRgb on
