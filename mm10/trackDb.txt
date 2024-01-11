@@ -285,7 +285,7 @@ color 102,204,102
   
 track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Tbx5 ChIPseq rep1,2 PROFILES OVERLAY
+    shortLabel Tbx5 ChIPseq Heart rep1,2 PROFILES OVERLAY
     longLabel Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659
     type bigWig 0 30000
     configurable on
@@ -321,7 +321,7 @@ track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PRO
 track Gata4_ChIPseq_Heart_Pu_2014_E12.5_GSM1260026_GSM1260027_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f08af952e038bc7f/display?to_ext=bigbed
 itemRgb on
-shortLabel Gata4 ChIPseq rep1,2 PEAKS
+shortLabel Gata4 ChIPseq Heart rep1,2 PEAKS
 longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027  
 type bigBed 3 .
 configurable on
