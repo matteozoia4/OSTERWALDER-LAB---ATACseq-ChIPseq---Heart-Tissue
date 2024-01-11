@@ -10,7 +10,7 @@ color 199,113,28
 
 track CTCF_ChIPseq_mESC_Bonev_2017_GSE96107_PROFILES_OVERLAY
     container multiWig
-    shortLabel CTCF ChIPseq mESC Rep1,2 PROFILES OVERLAY
+    shortLabel CTCF ChIPseq mESC rep1,2 PROFILES OVERLAY
     longLabel CTCF_ChIPseq_mESC_Bonev_2017_GSE96107
     type bigWig 0 30000
     configurable on
@@ -183,11 +183,11 @@ configurable on
 visibility dense
 color 230,221,0
 
-track ATAC_Heart_E11.5_Abassah_2024_GSE232887_INTERSECTED_PEAKS
+track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_INTERSECTED_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213572f78e12495803c0/display?to_ext=bigbed
 itemRgb on
-shortLabel ATAC Heart E11.5 Rep1,2 PEAKS
-longLabel ATAC_Heart_E11.5_Abassah_2024_GSE232887
+shortLabel ATACseq Heart E11.5 Rep1,2 PEAKS
+longLabel ATACseq_Heart_E11.5_Abassah_2024_GSE232887
 type bigBed 3 .
 configurable on
 visibility dense
@@ -285,7 +285,7 @@ color 102,204,102
   
 track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PROFILES
     container multiWig
-    shortLabel Tbx5 ChIPseq rep1 rep2 PROFILES OVERLAY
+    shortLabel Tbx5 ChIPseq rep1,2 PROFILES OVERLAY
     longLabel Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659
     type bigWig 0 30000
     configurable on
