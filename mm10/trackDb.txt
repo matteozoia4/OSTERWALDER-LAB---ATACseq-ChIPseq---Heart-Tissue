@@ -373,7 +373,7 @@ configurable on
 visibility dense
 color 102,204,102 
 
-track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2
+track GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424706_SRR12424707_SRR12424708_peaks_macs2
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f7c122864681ebd7/display?to_ext=bigbed
 itemRgb on
 shortLabel Gata4-TNT ChIPseq Heart-Ventricular-Apex rep1,2,3 PEAKS
