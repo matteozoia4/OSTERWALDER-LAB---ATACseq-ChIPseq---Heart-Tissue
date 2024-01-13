@@ -426,7 +426,7 @@ configurable on
 visibility dense
 color 102,204,102 
 
-track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
+track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
     container multiWig
     shortLabel Gata4-T2 ChIPseq Heart-Ventricular-Apex rep1,2,3 PROFILES OVERLAY
     longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718809_GSM4718810_GSM4718811
@@ -445,27 +445,27 @@ track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_TNT_
     yLineMark 1
     gridDefault off
     
-        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812_PROFILE
+        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718809_PROFILE
         parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721350ed7a9f680bfba2a/display?to_ext=bigwig
         shortLabel Gata4-T2_ChIPseq_rep1
-        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812 
+        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718809 
         type bigWig
         color 102,204,102
 
-        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718813_PROFILE
+        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718810_PROFILE
         parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213553a8ef757a005827/display?to_ext=bigwig
         shortLabel Gata4-T2_ChIPseq_rep2
-        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718813
+        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718810
         type bigWig
         color 102,204,102
 
-        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718814_PROFILE
+        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718811_PROFILE
         parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213586b7ef4a7eb7c9d2/display?to_ext=bigwig
         shortLabel Gata4-T2_ChIPseq_rep3
-        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718814 
+        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718811 
         type bigWig
         color 102,204,102
 
