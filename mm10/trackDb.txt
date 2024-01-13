@@ -363,6 +363,59 @@ track Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027_OVERLAYED_PROFILES
         type bigWig
         color 102,204,102
 
+track GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424706_SRR12424707_SRR12424708_peaks_macs2
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f7c122864681ebd7/display?to_ext=bigbed
+itemRgb on
+shortLabel Gata4-TNT ChIPseq Heart-Ventricular-Apex rep1,2,3 PEAKS
+longLabel Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812_GSM4718813_GSM4718814  
+type bigBed 3 .
+configurable on
+visibility dense
+color 102,204,102 
+
+track GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424706_SRR12424707_SRR12424708_peaks_macs2_OVERLAYED_PROFILES
+    container multiWig
+    shortLabel Gata4-TNT ChIPseq Heart-Ventricular-Apex rep1,2,3 PROFILES OVERLAY
+    longLabel Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812_GSM4718813_GSM4718814
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:10
+    viewLimitsMax 0:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+        track Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424706_SRR12424707_SRR12424708_peaks_macs2_OVERLAYED_PROFILES
+        bigDataUrl 
+        shortLabel Gata4-TNT_ChIPseq_rep1
+        longLabel Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812 
+        type bigWig
+        color 102,204,102
+
+        track Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718813_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424706_SRR12424707_SRR12424708_peaks_macs2_OVERLAYED_PROFILES
+        bigDataUrl 
+        shortLabel Gata4-TNT_ChIPseq_rep2
+        longLabel Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718813
+        type bigWig
+        color 102,204,102
+
+        track Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718814_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424706_SRR12424707_SRR12424708_peaks_macs2_OVERLAYED_PROFILES
+        bigDataUrl 
+        shortLabel Gata4-TNT_ChIPseq_rep3
+        longLabel Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718814 
+        type bigWig
+        color 102,204,102
+
 track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352e65cce20fec9f9e/display?to_ext=bigbed
 itemRgb on
@@ -373,15 +426,48 @@ configurable on
 visibility dense
 color 102,204,102 
 
-track GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424706_SRR12424707_SRR12424708_peaks_macs2
-bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135f7c122864681ebd7/display?to_ext=bigbed
-itemRgb on
-shortLabel Gata4-TNT ChIPseq Heart-Ventricular-Apex rep1,2,3 PEAKS
-longLabel Gata4-TNT_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812_GSM4718813_GSM4718814  
-type bigBed 3 .
-configurable on
-visibility dense
-color 102,204,102 
+track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_TNT_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
+    container multiWig
+    shortLabel Gata4-T2 ChIPseq Heart-Ventricular-Apex rep1,2,3 PROFILES OVERLAY
+    longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718809_GSM4718810_GSM4718811
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0:10
+    viewLimitsMax 0:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
+        bigDataUrl 
+        shortLabel Gata4-T2_ChIPseq_rep1
+        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718812 
+        type bigWig
+        color 102,204,102
+
+        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718813_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
+        bigDataUrl 
+        shortLabel Gata4-T2_ChIPseq_rep2
+        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718813
+        type bigWig
+        color 102,204,102
+
+        track Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718814_PROFILE
+        parent GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_rep1_2_3_ChIPseq_SRR12424703_SRR12424704_SRR12424705_peaks_macs2_OVERLAYED_PROFILES
+        bigDataUrl 
+        shortLabel Gata4-T2_ChIPseq_rep3
+        longLabel Gata4-T2_ChIPseq_Heart-Ventricular-Apex_E12.5_Pu_2021_GSM4718814 
+        type bigWig
+        color 102,204,102
 
 track Tead1_ChIPseq_Heart_Akerberg_2019_E12.5_GSM3518661_GSM3518663_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135330ddd2b61ac0682/display?to_ext=bigbed
