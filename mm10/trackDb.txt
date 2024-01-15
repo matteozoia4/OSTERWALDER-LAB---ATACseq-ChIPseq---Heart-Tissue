@@ -201,8 +201,8 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0:20
-    viewLimitsMax 0:20
+    viewLimits 0:30
+    viewLimitsMax 0:30
     maxHeightPixels 100:30:18
     aggregate transparentOverlay
     showSubtrackColorOnUi on
@@ -291,8 +291,8 @@ track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PRO
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 3:10
-    viewLimitsMax 3:124.127
+    viewLimits 0:20
+    viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
     showSubtrackColorOnUi on
