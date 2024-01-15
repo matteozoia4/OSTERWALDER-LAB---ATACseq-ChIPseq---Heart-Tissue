@@ -291,7 +291,7 @@ track Tbx5_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518657_GSM3518659_OVERLAYED_PRO
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0:20
+    viewLimits 0:15
     viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
