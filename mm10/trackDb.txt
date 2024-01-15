@@ -381,7 +381,7 @@ track GSE156001_William_T_Pu_2021_GSM4718812_GSM4718813_GSM4718814_E12.5_G4_TNT_
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0:30
+    viewLimits 0:40
     viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
@@ -434,7 +434,7 @@ track GSE156001_William_T_Pu_2021_GSM4718809_GSM4718810_GSM4718811_E12.5_G4_T2_r
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0:30
+    viewLimits 0:40
     viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
@@ -487,7 +487,7 @@ track Tead1_ChIPseq_Heart_E12.5_Akerberg_2019_GSM3518661_GSM3518663_OVERLAYED_PR
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0:10
+    viewLimits 0:5
     viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
