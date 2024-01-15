@@ -336,7 +336,7 @@ track Gata4_ChIPseq_Heart_E12.5_Pu_2014_GSM1260026_GSM1260027_OVERLAYED_PROFILES
     configurable on
     visibility full
     windowingFunction mean+whiskers
-    viewLimits 0:30
+    viewLimits 0:10
     viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
     aggregate transparentOverlay
