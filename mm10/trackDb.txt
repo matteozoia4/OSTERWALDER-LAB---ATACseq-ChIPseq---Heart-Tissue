@@ -626,10 +626,10 @@ track CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
         type bigWig
         color 255,153,153
           
-        track EC_ATACseq_Heart_Rep1_PROFILE 
-        parent EC_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
+        track CM_ATACseq_Heart_Rep1_PROFILE 
+        parent CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
         bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135df740c3d81f503eb/display?to_ext=bigwig
-        shortLabel EC ATACseq Heart rep1 PROFILE
-        longLabel EC_ATACseq_Heart_E12.5_Pu_2021_GSE156001
+        shortLabel CM ATACseq Heart rep1 PROFILE
+        longLabel CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001
         type bigWig
         color 255,204,204
