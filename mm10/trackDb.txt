@@ -218,7 +218,7 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         shortLabel ATACseq Heart E11.5 rep1
         longLabel ATACseq_Heart_E11.5_Abassah_2024_Rep1
         type bigWig
-        color 255,153,153
+        color 255,204,204
           
         track ATACseq_Heart_E11.5_Abassah_2024_Rep2
         parent ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
@@ -226,7 +226,7 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
         shortLabel ATACseq Heart E11.5 rep2
         longLabel ATACseq_Heart_E11.5_Abassah_2024_Rep2
         type bigWig
-        color 255,204,204
+        color 255,153,153
 
 track Hand2_ChIPseq_Heart_E10.5_Laurent_2017_GSM1891954_GSM1891956_PEAKS
 bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511ab54fbc16fa980/display?to_ext=bigbed
@@ -618,18 +618,18 @@ track CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
     yLineMark 1
     gridDefault off
 
-        track CM_ATACseq_Heart_Rep1_PROFILE 
-        parent CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
-        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213574c90787b03dd2e3/display?to_ext=bigwig
-        shortLabel CM ATACseq Heart rep1 PROFILE
-        longLabel CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001
-        type bigWig
-        color 255,153,153
-          
         track CM_ATACseq_Heart_Rep2_PROFILE 
         parent CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
-        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135df740c3d81f503eb/display?to_ext=bigwig
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213574c90787b03dd2e3/display?to_ext=bigwig
         shortLabel CM ATACseq Heart rep2 PROFILE
         longLabel CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001
         type bigWig
         color 255,204,204
+          
+        track CM_ATACseq_Heart_Rep1_PROFILE 
+        parent CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135df740c3d81f503eb/display?to_ext=bigwig
+        shortLabel CM ATACseq Heart rep1 PROFILE
+        longLabel CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001
+        type bigWig
+        color 255,153,153
