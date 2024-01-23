@@ -204,7 +204,7 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     viewLimits 0:15
     viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
-    aggregate transparentOverlay
+    aggregate stacked
     showSubtrackColorOnUi on
     autoScale off
     smoothingWindow off
