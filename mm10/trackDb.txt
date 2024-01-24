@@ -204,7 +204,7 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     viewLimits 0:15
     viewLimitsMax 0:124.127
     maxHeightPixels 128:30:11
-    aggregate stacked
+    aggregate transparentOverlay
     showSubtrackColorOnUi on
     autoScale off
     smoothingWindow off
@@ -565,7 +565,7 @@ track EC_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
     viewLimits 0:20
     viewLimitsMax 0:20
     maxHeightPixels 100:30:18
-    aggregate stacked
+    aggregate transparentOverlay
     showSubtrackColorOnUi on
     autoScale off
     smoothingWindow off
@@ -610,7 +610,7 @@ track CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
     viewLimits 0:20
     viewLimitsMax 0:20
     maxHeightPixels 100:30:18
-    aggregate stacked
+    aggregate transparentOverlay
     showSubtrackColorOnUi on
     autoScale off
     smoothingWindow off
